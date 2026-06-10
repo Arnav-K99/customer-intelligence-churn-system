@@ -22,7 +22,7 @@ Most churn models stop at accuracy. ChurnLens goes further — it frames churn a
 
 ## Live Demo
 
-> **[Add your Streamlit Cloud link here after deploying]**
+> **https://customer-churn123.streamlit.app/**
 
 ---
 
