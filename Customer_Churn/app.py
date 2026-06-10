@@ -1,25 +1,30 @@
+import os
 import pandas as pd
 import joblib
 import streamlit as st
 
 # ---------------- LOAD DATA ----------------
 
+import os
+base = os.path.dirname(__file__)
+
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("customer_data.csv")
+    base = os.path.dirname(__file__)
+    return pd.read_csv(os.path.join(base, "customer_data.csv"))
 
 
 @st.cache_resource
 def load_model():
-    model = joblib.load("churn_model.pkl")
-    preprocessor = joblib.load("preprocessor.pkl")
+    model = joblib.load(os.path.join(base, "churn_model.pkl"))
+    preprocessor = joblib.load(os.path.join(base, "preprocessor.pkl"))
     return model, preprocessor
 
 
 df = load_data()
 model, preprocessor = load_model()
-results_df = pd.read_csv("final_result_df.csv")
+results_df = pd.read_csv(os.path.join(base, "final_result_df.csv"))
 
 # ---------------- SEGMENT & RISK HELPERS ----------------
 
