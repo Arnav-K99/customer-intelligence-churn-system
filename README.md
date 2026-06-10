@@ -28,13 +28,23 @@ Most churn models stop at accuracy. ChurnLens goes further — it frames churn a
 
 ## Screenshots
 
-| Dashboard | Segmentation |
-|-----------|-------------|
-| ![Dashboard](churnSS/Screenshot%202026-06-10%20130424.png) | ![Segmentation](screenshots/segmentation.png) |
+| Dashboard | 
+|-----------|
+| ![Dashboard](churnSS/dashboard) |
 
-| Churn Prediction | Customer Actions |
-|-----------------|-----------------|
-| ![Prediction](screenshots/prediction.png) | ![Actions](screenshots/actions.png) |
+| Segmentation |
+|-----------|
+| ![Segmentation](churnSS/segementaion1.png) |
+| ![Segmentation](churnSS/segmentation2.png) |
+
+| Churn Prediction | 
+|-----------------|
+| ![Prediction](churnSS/prediction1.png) |
+| ![Prediction](churnSS/prediction2.png) |
+
+| Customer Actions |
+|-----------------|
+| ![Action](churnSS/Action.png) |
 
 ---
 
@@ -193,8 +203,3 @@ IBM Telco Customer Churn dataset — 7,043 customers, 21 features including cont
 
 ---
 
-## Author
-
-**Krish** — 3rd year Computer Science student  
-Targeting backend ML and data science roles  
-[LinkedIn](#) · [GitHub](#)
