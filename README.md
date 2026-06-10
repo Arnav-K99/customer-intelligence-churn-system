@@ -30,7 +30,7 @@ Most churn models stop at accuracy. ChurnLens goes further — it frames churn a
 
 | Dashboard | Segmentation |
 |-----------|-------------|
-| ![Dashboard](screenshots/dashboard.png) | ![Segmentation](screenshots/segmentation.png) |
+| ![Dashboard](churnSS/Screenshot%202026-06-10%20130424.png) | ![Segmentation](screenshots/segmentation.png) |
 
 | Churn Prediction | Customer Actions |
 |-----------------|-----------------|
